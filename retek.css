@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: 'Noto Serif', serif;
+    color: black;
+    background-color: #F4F4F3;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  h2,
+  h3,
+  h4,
+  p {
+    margin: 0;
+    padding: 10px;
+  }
+  
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+  }
+  
+  .navbar p {
+    display: inline-block;
+    padding: 10px 10px;
+  }
+  
+  .main {
+    padding-top: 35px;
+    opacity: 0.9;
+  }
+  
+  .products {
+    display: flex;
+    height: 300px;
+    background-image: url("https://images.unsplash.com/photo-1535726858289-9ffe2dff6f52?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80");
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  
+  .products .content {
+    margin: auto;
+    background-color: #CAE9F4;
+    width: 100%;
+  }
+  
+  .project {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+  }
+  
+  .companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .company img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+  }
+  
+  .company span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .about {
+    background-image: url("https://images.unsplash.com/photo-1517999144091-3d9dca6d1e43?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=627&q=80");
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .aboutus {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+  }
+  
+  .aboutus img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+  }
+  
+  .materialsafety,
+  .datasheets
+  {
+    padding-top: 20px;
+    color: #AE2A1B;
+  }
+  
+  .contact {
+    padding-top: 20px;
+  }
